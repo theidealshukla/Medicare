@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    // Set the base path for GitHub Pages deployment
-    // If your repo is https://github.com/username/repo, base should be '/repo/'
-    base: '/Medicare/',
+    // Set base to '/' for Netlify, or '/repo-name/' for GitHub Pages
+    base: '/',
     build: {
         outDir: 'dist',
         assetsDir: 'assets',
