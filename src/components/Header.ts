@@ -4,7 +4,7 @@ export const Header = (): string => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
-                <a href="/" class="flex items-center space-x-2 group">
+                <a href="./index.html" class="flex items-center space-x-2 group">
                     <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -15,11 +15,11 @@ export const Header = (): string => {
 
                 <!-- Desktop Navigation -->
                 <div class="hidden lg:flex items-center space-x-8">
-                    <a href="/" class="nav-link active">Home</a>
-                    <a href="/about.html" class="nav-link">About Us</a>
-                    <a href="/services.html" class="nav-link">Services</a>
-                    <a href="/doctors.html" class="nav-link">Find a Doctor</a>
-                    <a href="/contact.html" class="nav-link">Contact</a>
+                    <a href="./index.html" class="nav-link active">Home</a>
+                    <a href="./about.html" class="nav-link">About Us</a>
+                    <a href="./services.html" class="nav-link">Services</a>
+                    <a href="./doctors.html" class="nav-link">Find a Doctor</a>
+                    <a href="./contact.html" class="nav-link">Contact</a>
                 </div>
 
                 <!-- CTA Button -->
@@ -32,7 +32,7 @@ export const Header = (): string => {
                         </div>
                         <span class="ml-2 font-medium">1-800-123-456</span>
                     </a>
-                    <a href="/appointment.html" class="btn-primary transform hover:-translate-y-0.5 transition-transform duration-200">
+                    <a href="./appointment.html" class="btn-primary transform hover:-translate-y-0.5 transition-transform duration-200">
                         Book Appointment
                     </a>
                 </div>
@@ -49,13 +49,13 @@ export const Header = (): string => {
         <!-- Mobile Menu (Hidden by default) -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-t absolute w-full shadow-lg">
             <div class="px-4 py-4 space-y-3">
-                <a href="/" class="block py-2 text-primary-600 font-medium bg-primary-50 rounded-md px-3">Home</a>
-                <a href="/about.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">About Us</a>
-                <a href="/services.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Services</a>
-                <a href="/doctors.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Find a Doctor</a>
-                <a href="/contact.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Contact</a>
+                <a href="./index.html" class="block py-2 text-primary-600 font-medium bg-primary-50 rounded-md px-3">Home</a>
+                <a href="./about.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">About Us</a>
+                <a href="./services.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Services</a>
+                <a href="./doctors.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Find a Doctor</a>
+                <a href="./contact.html" class="block py-2 text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded-md px-3 transition-colors">Contact</a>
                 <div class="pt-4 border-t mt-2">
-                    <a href="/appointment.html" class="btn-primary w-full text-center justify-center">Book Appointment</a>
+                    <a href="./appointment.html" class="btn-primary w-full text-center justify-center">Book Appointment</a>
                 </div>
             </div>
         </div>

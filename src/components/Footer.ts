@@ -5,7 +5,7 @@ export const Footer = (): string => {
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
                 <!-- About -->
                 <div class="space-y-6">
-                    <a href="/" class="flex items-center space-x-2 mb-6 group">
+                    <a href="./index.html" class="flex items-center space-x-2 mb-6 group">
                         <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center group-hover:bg-primary-500 transition-colors">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -26,11 +26,11 @@ export const Footer = (): string => {
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-6 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="/about.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> About Us</a></li>
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Our Services</a></li>
-                        <li><a href="/doctors.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Find a Doctor</a></li>
-                        <li><a href="/appointment.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Appointments</a></li>
-                        <li><a href="/contact.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Contact Us</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> About Us</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Our Services</a></li>
+                        <li><a href="./doctors.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Find a Doctor</a></li>
+                        <li><a href="./appointment.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Appointments</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -38,11 +38,11 @@ export const Footer = (): string => {
                 <div>
                     <h4 class="text-white font-semibold text-lg mb-6 border-b border-gray-700 pb-2 inline-block">Our Services</h4>
                     <ul class="space-y-3">
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Cardiology</a></li>
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Neurology</a></li>
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Pediatrics</a></li>
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Orthopedics</a></li>
-                        <li><a href="/services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Emergency Care</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Cardiology</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Neurology</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Pediatrics</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Orthopedics</a></li>
+                        <li><a href="./services.html" class="text-gray-400 hover:text-primary-400 transition-colors flex items-center"><span class="mr-2">›</span> Emergency Care</a></li>
                     </ul>
                 </div>
 

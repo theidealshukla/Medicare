@@ -24,7 +24,7 @@ export const ServiceCard = (service: Service): string => {
         </div>
         <h3 class="text-xl font-bold text-gray-900 mb-3">${service.title}</h3>
         <p class="text-gray-600 mb-4">${service.description}</p>
-        <a href="/services.html" class="inline-flex items-center text-primary-600 font-medium hover:text-primary-700 transition-colors group-hover:translate-x-1 duration-300">
+        <a href="./services.html" class="inline-flex items-center text-primary-600 font-medium hover:text-primary-700 transition-colors group-hover:translate-x-1 duration-300">
             Learn More
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
